@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C55D73128A266BF00E2A539 /* SayfaA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C55D73028A266BF00E2A539 /* SayfaA.swift */; };
+		0C55D73328A2673300E2A539 /* SayfaB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C55D73228A2673300E2A539 /* SayfaB.swift */; };
+		0C55D73528A2677100E2A539 /* SayfaX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C55D73428A2677100E2A539 /* SayfaX.swift */; };
+		0C55D73728A2678C00E2A539 /* SayfaY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C55D73628A2678C00E2A539 /* SayfaY.swift */; };
 		0CBDC46528A2632E000B958F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBDC46428A2632E000B958F /* AppDelegate.swift */; };
 		0CBDC46728A2632E000B958F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBDC46628A2632E000B958F /* SceneDelegate.swift */; };
-		0CBDC46928A2632E000B958F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBDC46828A2632E000B958F /* ViewController.swift */; };
+		0CBDC46928A2632E000B958F /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBDC46828A2632E000B958F /* Anasayfa.swift */; };
 		0CBDC46C28A2632E000B958F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBDC46A28A2632E000B958F /* Main.storyboard */; };
 		0CBDC46E28A2632F000B958F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBDC46D28A2632F000B958F /* Assets.xcassets */; };
 		0CBDC47128A2632F000B958F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBDC46F28A2632F000B958F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C55D73028A266BF00E2A539 /* SayfaA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayfaA.swift; sourceTree = "<group>"; };
+		0C55D73228A2673300E2A539 /* SayfaB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayfaB.swift; sourceTree = "<group>"; };
+		0C55D73428A2677100E2A539 /* SayfaX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayfaX.swift; sourceTree = "<group>"; };
+		0C55D73628A2678C00E2A539 /* SayfaY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayfaY.swift; sourceTree = "<group>"; };
 		0CBDC46128A2632E000B958F /* Odev4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Odev4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBDC46428A2632E000B958F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CBDC46628A2632E000B958F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0CBDC46828A2632E000B958F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CBDC46828A2632E000B958F /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
 		0CBDC46B28A2632E000B958F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CBDC46D28A2632F000B958F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CBDC47028A2632F000B958F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +66,15 @@
 			children = (
 				0CBDC46428A2632E000B958F /* AppDelegate.swift */,
 				0CBDC46628A2632E000B958F /* SceneDelegate.swift */,
-				0CBDC46828A2632E000B958F /* ViewController.swift */,
+				0CBDC46828A2632E000B958F /* Anasayfa.swift */,
 				0CBDC46A28A2632E000B958F /* Main.storyboard */,
 				0CBDC46D28A2632F000B958F /* Assets.xcassets */,
 				0CBDC46F28A2632F000B958F /* LaunchScreen.storyboard */,
 				0CBDC47228A2632F000B958F /* Info.plist */,
+				0C55D73028A266BF00E2A539 /* SayfaA.swift */,
+				0C55D73228A2673300E2A539 /* SayfaB.swift */,
+				0C55D73428A2677100E2A539 /* SayfaX.swift */,
+				0C55D73628A2678C00E2A539 /* SayfaY.swift */,
 			);
 			path = Odev4;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CBDC46928A2632E000B958F /* ViewController.swift in Sources */,
+				0C55D73128A266BF00E2A539 /* SayfaA.swift in Sources */,
+				0CBDC46928A2632E000B958F /* Anasayfa.swift in Sources */,
+				0C55D73328A2673300E2A539 /* SayfaB.swift in Sources */,
+				0C55D73528A2677100E2A539 /* SayfaX.swift in Sources */,
 				0CBDC46528A2632E000B958F /* AppDelegate.swift in Sources */,
+				0C55D73728A2678C00E2A539 /* SayfaY.swift in Sources */,
 				0CBDC46728A2632E000B958F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
